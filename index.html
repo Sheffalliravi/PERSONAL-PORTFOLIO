@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa20c4b13a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <nav>
+            <style>
+                img {
+                  width: 10%; /* Adjust the percentage as needed */
+                  height: auto;
+                }
+              </style>
+            <img src="images/logo-png.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header-text">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-bars" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>I'm <span>Sheffalli R</span><br>from<br>Bannari Amman Institute<br>Of Technology</h1>
+
+        </div>
+
+    </div>
+
+    </div>
+    <div id="About">
+       <div class="container">
+        <div class="Row">
+            <div class="About-col-1">
+                <img src="images/WhatsApp Image 2023-05-19 at 21.06.53.jpg">
+            </div>
+            <div class="About-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a computer science engineering student currently pursuing B E in BannariAmman InstituteOf Technology.I considder myself as a bold,ambivert and with a good leadership quality.My self confidence makes me more stronger when compared with others.I think I have good communicating and marketing skills.I am a flexible person and can adapt to any changes around me. I am looking forward for my first working experience</p>
+               
+                  <div class="tab-title">
+                    <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('extracurricular activities')">Extracurricular activities</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>CERTIFICATION</span><br>SERVICENOW</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Programming Languages</span><br>JavaSCRIPT, Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>B.E at Bannari Amman Institute Of Technology</li>
+                        <li><span>2020-2021</span><br>12th Grade at Velalar Vidhyalaya CBSE</li>
+                        <li><span>2018-2019</span><br>10th Grade at THE BVB CBSE</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="extracurricular activities">
+                    <ul>
+                        <li><span>Karnatic music</span><br>Grade 4 completed</li>
+                        <li><span>Grade 6 - Grade 9</span><br>B.A Hindi literature</li>
+                        <li><span>Grade 7</span><br>Badmitton player(Runner)</li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div id="Projects">
+          <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <I class="fas fa-code"></I>
+                    <h2>MACHINE LEARNING PROJECT</h2>
+                    <P>I created a project named 'ANTI LOCK BRAKE SYSTEM' PREDICTION using machine learning algorithms.This working model is used as a dataset  in our daily life which is linked with a website.</P>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>IOT and APP DEVELOPMENT PROJECT</h2>
+                    <P>Project Name:Smart door lock system , this is an IOT modelled project connected to a mobile app through bluetooth where the app  is created by android app studio. When the IOT model and the app is connected the model is locked and unlocked according to the commands given.This ensures the security of the doors of various resources. </P>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>ARTIFICIAL INTELLIGENCE</h2>
+                    <P>Project Name:Virtual Mouse, computer vision has started to play a significant role in the Human Computer Interaction (HCI). With efficient object tracking algorithms, it is possible to track the motion of a human hand in real time using a simple web camera.
+                       This project has a the design of a system that tracks the fingertip of the index finger for the purpose of controlling mouse pointer on the screen. </P>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+          </div>   
+    </div>
+    <!---------------portfolio--------------- -->
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+               <div class="work">
+                <img src="images/work1.png">
+                 <div class="layer">
+                    <h3>Bluetooth app for door lock</h3>
+                    <p>The app connects the IOT model and app through bluetooth sensors and works accordingly when the on/off button in the app is pressed.This app was created by me with the use of Android studio</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+               </div>
+               <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>IOT model of Smart door lock System</h3>
+                    <p>Arduino IDE software and Bluetooth sensors are used to operate the door lock system.  In this method, all data are controlled by Bluetooth android application . Nobody can hack the system it is a closed-loop and most secure system.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+               </div> 
+               <div class="work">
+                <img src="images/imm virtual.png">
+                <div class="layer">
+                    <h3>Virtual Mouse</h3>
+                    <p>With efficient object tracking algorithms, it is possible to track the motion of a human hand in real time using a simple web camera.
+                        When the user folds his thumb back, the system generates a mouse button up event. Also note that if pointing pose was not detected in the image, then mouse clicks are not  detected at all. The system maintains the status of the mouse button (left button only).</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>SHEFFALLI.CS21@BITSATHY.AC.IN</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9600766377</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="C:\Users\91960\Downloads\RESUME_SHEFFALLI R.pdf (1).pdf.pdf" download class="btn btn2">My resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="contact.php" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Sheffalli R. Made with <i class="fas fa-heart"></i> by the Student of BIT</p>
+        </div>
+    </div>
+    
+
+    <script>
+
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    
+</body>
+</html>
